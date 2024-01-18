@@ -1,4 +1,4 @@
-package com.star.androidmockserver
+package com.ravimhzn.androidmockserver
 
 import org.junit.Test
 

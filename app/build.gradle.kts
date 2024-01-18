@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.star.starappmockserver.android"
+    namespace = "com.ravimhzn.starappmockserver.android"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.star.starappmockserver.android"
+        applicationId = "com.ravimhzn.starappmockserver.android"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
