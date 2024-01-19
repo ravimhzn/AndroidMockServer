@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.ravimhzn.androidmockserver.navigation.SetUpNavGraph
 import com.ravimhzn.androidmockserver.ui.theme.AndroidMockServerTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidMockServerTheme {
                 navController = rememberNavController()
-                //SetUpNavGraph(navController)
+                SetUpNavGraph(navController)
             }
         }
     }

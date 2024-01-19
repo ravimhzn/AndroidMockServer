@@ -9,7 +9,6 @@ import java.io.Serializable
 
 data class MockResponse(
     val name: String,
-    val category: Category,
     val path: String,
     val httpMethod: HttpMethod
 ) : Serializable {
@@ -89,11 +88,6 @@ data class MockResponse(
         return this
     }
 
-}
-
-enum class Category {
-    //Add more as per need
-    GUEST, MEMBER
 }
 
 enum class HttpMethod {
